@@ -23,19 +23,20 @@ section {
 
 .section-title {
   margin: 20px 0 10px;
+  display: inline-block;
 }
 
 .section-title a {
   font-weight: 900;
   font-size: 28px;
   color: #f42;
-  padding-left: 9px;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  clear: both;
 }
 
 .col-md-3 {
@@ -210,6 +211,22 @@ main {
 
 article {
   position: relative;
+}
+
+.section-header {
+  margin-bottom: 24px;
+}
+.section-header .header-link {
+  color: #f42;
+  float: right;
+  line-height: 58px;
+  margin: 10px 24px 0px 0px;
+}
+.header-link::after {
+  content: "|";
+  color: #f42;
+  margin: 0px 12px;
+  position: absolute;
 }
 
 .section1 .article1 {
