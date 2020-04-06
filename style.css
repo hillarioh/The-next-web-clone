@@ -254,6 +254,10 @@ article {
   bottom: 15px;
 }
 
+.article-content a {
+  color: white;
+}
+
 .article-content ul {
   list-style: none;
   margin-top: 5px;
@@ -359,6 +363,60 @@ article {
   color: #aaaaaa;
 }
 
+.middler {
+  background: #fff4f2;
+}
+
+.first-middler {
+  max-width: 70%;
+  float: left;
+  font-size: 13px;
+  color: #f42;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.first-middler h4 a {
+  font-size: 15px;
+  color: #f42;
+  padding-bottom: 10px;
+}
+
 .second-middler {
+  display: inline-block;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/hbo-free-coronavirus.jpg");
+  width: 114px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
+.end {
+  clear: both;
+  padding-left: 17px;
+  color: #f42;
+}
+
+.end li {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+}
+
+.end li a {
+  color: #555555;
+  font-size: 13px;
+}
+
+.col-md-4 {
+  flex: 33%;
+  max-width: 33%;
+}
+
+.apps {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/strategic-narrative-796x417.png);
+  background-size: cover;
+  min-width: 100%;
+  height: 276px;
+  position: relative;
 }
