@@ -7,29 +7,77 @@ body {
 .d-flex {
   display: flex;
 }
+
 .hidden {
   display: none;
 }
+
 .container {
   margin: 0 auto;
   max-width: 1192px;
   padding: 0 20px;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
+
 .col-md-3 {
   flex: 24%;
   max-width: 24%;
   box-sizing: border-box;
   margin: 0 2px;
 }
+
+.col-md-3 .news-img {
+  max-width: 100% !important;
+  height: 150px;
+}
+
+.news a {
+  color: black;
+}
+
+.col-md-3 .img1 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/yoga-516x270.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-md-3 .img2 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/image-6-516x270.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-md-3 .img3 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/cognitive-design-516x270.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+}
+
+.col-md-3 .img4 {
+  background: url("https://i.ytimg.com/vi/zZbDg24dfN0/hqdefault.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 a {
   text-decoration: none;
   color: #fff;
 }
+
+h3 a {
+  font-family: "Roboto", sans-serif;
+}
+
 main {
   margin: 0;
   padding: 0;
@@ -85,7 +133,7 @@ main {
 }
 
 .header .nav3-container {
-  background: #ffdd33;
+  background: #fd3;
   color: black;
 }
 
@@ -102,9 +150,11 @@ main {
   grid-gap: 10px;
   padding: 10px 20px;
 }
+
 article {
   position: relative;
 }
+
 .section1 .article1 {
   grid-area: 1 / 1 / 3 / 2;
   position: relative;
@@ -123,12 +173,13 @@ article {
 .section1 .article1 .articl1e1-date {
   float: right;
 }
+
 .article-content {
   position: absolute;
-  bottom: 5px;
   left: 10px;
   bottom: 15px;
 }
+
 .article-content ul {
   list-style: none;
   margin-top: 5px;
