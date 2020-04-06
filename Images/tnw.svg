@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<!--
+ _________   _______       ___     ___    ___      _____      _                  _      _ _
+|         | |        \    |   |   |   |  |   |    / ____|    | |                | |    | (_)
+|__     __| |    _    \   |   |   '   |  '   '   | |    _   _| |__   ___ _ __ __| | ___| |_  __ _
+   |   |    |   |  \   \  |   '_ /    '_/   /    | |   | | | | '_ \ / _ \ '__/ _` |/ _ \ | |/ _` |
+   |   |    |   |   |   | |         /      /     | |___| |_| | |_) |  __/ | | (_| |  __/ | | (_| |
+   '___'    '___'   '___' '_______ / '____/       \_____\__, |_.__/ \___|_|  \__,_|\___|_|_|\__,_|
+                                                         __/ |
+                                                        |___/
+Design by:
+——————————
+
+    ALEXANDER GRIFFIOEN
+   ✉alexander🐺thenextweb.com
+   ✎@oscaralexander
+   ✈Amsterdam, NL
+
+Implementation/Development by:
+——————————————————
+
+    RONAN O'LEARY           |  JAMES SCOTT      | JULIO FOULQUIÉ            | JULIAN AIJAL
+    ✉ronan🚀thenextweb.com  |  ✈Amsterdam, NL   | ✉julio🐼thenextweb.com    | ✉julian🍻thenextweb.com
+    ✎@ro_oleary             |                   | ✎@julioelpoeta            | ✎@jaijal ✈Amsterdam, NL
+    ✈Dublin, IE             |                   | ✈Montevideo, UY
+    ✈Amsterdam, NL
+
+Alumni:
+_______
+
+    LAURA GONZÁLEZ          |   PABLO ROMÁN             |   JAVIER NEGRE
+   ✎@freezydorito           |  ✎@pabloroman             |  ✎@javi_negre
+   ✈Oviedo, ES              |  ✈Amsterdam, NL           |  ✈Barcelona, ES
+
+    GORDAN KONDEV           
+   ✈Amsterdam, NL           
+
+🍺 Aren't you thirsty? Why don't you cyberdelia.knock() on the door? 🍻
+
+-->
+<html lang="en-us" prefix="og:http://ogp.me/ns# fb:http://ogp.me/ns/fb#" itemscope itemtype="https://schema.org/WebPage">
+<head>
+
+<meta charset="UTF-8">
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<meta content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width" name="viewport">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="referrer" content="unsafe-url">
+<meta name="apple-mobile-web-app-title" content="The Next Web">
+<meta name="msvalidate.01" content="EBA9DC0DD4E376AF9708F73323680AB1" />
+<!-- Awin verification 001 -->
+<title>Page Not Found | The Next Web</title>
+
+<link rel="manifest" href="/manifest.json">
+
+<link rel="stylesheet" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/css/style.css?v=1585558454" type="text/css"/>
+
+<link rel="dns-prefetch" href="//cdn0.tnwcdn.com/">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="preconnect" href="//cdn0.tnwcdn.com/">
+<link rel="preconnect" href="//www.googletagmanager.com">
+<link rel="apple-touch-icon" sizes="57x57" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-57x57.png?v=1585558431">
+<link rel="apple-touch-icon" sizes="60x60" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-60x60.png?v=1585558431">
+<link rel="apple-touch-icon" sizes="72x72" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-72x72.png?v=1585558431">
+<link rel="apple-touch-icon" sizes="76x76" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-76x76.png?v=1585558431">
+<link rel="apple-touch-icon" sizes="114x114" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-114x114.png?v=1585558431">
+<link rel="apple-touch-icon" sizes="120x120" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-120x120.png?v=1585558431">
+<link rel="apple-touch-icon" sizes="144x144" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-144x144.png?v=1585558431">
+<link rel="apple-touch-icon" sizes="152x152" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-152x152.png?v=1585558431">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-180x180.png?v=1585558431">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-32x32.png?v=1585558431" sizes="32x32">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-194x194.png?v=1585558431" sizes="194x194">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-96x96.png?v=1585558431" sizes="96x96">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/android-chrome-192x192.png?v=1585558431" sizes="192x192">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-16x16.png?v=1585558431" sizes="16x16">
+<link rel="shortcut icon" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon.png?v=1585558431">
+<link rel="alternate" type="application/rss+xml" title="The Next Web RSS Feed" href="http://feeds2.feedburner.com/thenextweb">
+<!--  WP_HEAD   -->
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v11.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page Not Found | The Next Web" />
+<meta property="og:site_name" content="The Next Web" />
+<meta property="og:image" content="https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&#038;fit=1280%2C640&#038;url=https%3A%2F%2Fcdn2.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2017%2F06%2Ftnw-fb.png&#038;signature=d329383c5a6c1c44736a487e9c46ee12" />
+<meta property="og:image:secure_url" content="https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&#038;fit=1280%2C640&#038;url=https%3A%2F%2Fcdn2.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2017%2F06%2Ftnw-fb.png&#038;signature=d329383c5a6c1c44736a487e9c46ee12" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Page Not Found | The Next Web" />
+<meta name="twitter:site" content="@thenextweb" />
+<meta name="twitter:image" content="https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&#038;fit=1280%2C640&#038;url=https%3A%2F%2Fcdn2.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2017%2F06%2Ftnw-fb.png&#038;signature=d329383c5a6c1c44736a487e9c46ee12" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://thenextweb.com/#organization","name":"TNW","url":"https://thenextweb.com/","sameAs":["https://www.facebook.com/thenextweb","https://instagram.com/thenextweb/","https://www.linkedin.com/company/the-next-web","https://www.youtube.com/user/thenextweb","https://www.pinterest.com/thenextweb/","https://twitter.com/thenextweb"]},{"@type":"WebSite","@id":"https://thenextweb.com/#website","url":"https://thenextweb.com/","name":"The Next Web","publisher":{"@id":"https://thenextweb.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://thenextweb.com/?q={search_term_string}","query-input":"required name=search_term_string"}}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='elasticpress-facets-css'  href='https://thenextweb.com/wp-content/plugins/elasticpress/dist/css/facets.min.css?ver=3.0.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://thenextweb.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-content/plugins/wordlift-tnw/public/js/wordlift-tnw-public.js?ver=1.5.0-dev'></script>
+<link rel='https://api.w.org/' href='https://thenextweb.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thenextweb.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://thenextweb.com/wp-includes/wlwmanifest.xml" /> 
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@id":"#Breadcrumb","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/thenextweb.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"name":null,"@id":"https:\/\/thenextweb.com\/cyberdelia\/"}}]}</script>
+        <!-- JSON-LD cached: yes-->
+        <script type="application/ld+json">[]</script>
+		<script>
+  (function (s,o,n,a,r,i,z,e) {s['StackSonarObject']=r;s[r]=s[r]||function(){
+  (s[r].q=s[r].q||[]).push(arguments)},s[r].l=1*new Date();i=o.createElement(n),
+  z=o.getElementsByTagName(n)[0];i.async=1;i.src=a;z.parentNode.insertBefore(i,z)
+  })(window,document,'script','https://www.stack-sonar.com/ping.js','stackSonar');
+
+  stackSonar('stack-connect-wp', "xbcLoqGe2L037SCrJ_Im4A");
+</script>
+<!--  WP_HEAD   -->
+
+<meta property="twitter:account_id" content="10876852">
+<meta property="fb:app_id" content="378011798897423">
+<link href="https://plus.google.com/115081025762845243709/" rel="publisher">
+<meta property="fb:pages" content="106976563522"><!-- TNW -->
+<meta property="fb:pages" content="136548879865026"><!-- TNW Conference -->
+<meta property="fb:pages" content="252857631761065"><!-- TNW NYC -->
+<meta property="fb:pages" content="665773266831844"><!-- Deals -->
+<meta name="yandex-verification" content="66df89eec58f9170">
+
+
+
+<script type="text/javascript">
+    var msTag = {"site":"tnw","page":"unknown","cyberdelia_page_type":"404","data":{"sponsorName":false,"isSponsoredCategory":false}}</script>
+<script src="//massariuscdn.com/pubs/tnw/tnw_adtech_setup.js"></script>
+<script type="text/javascript">
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+
+	window.dataLayer = window.dataLayer || [];
+</script>
+
+ <script type="text/javascript">
+
+    var IS_MOBILE = false;
+    var APP_LOCALE = {"country":"IN","region":"AS","city":""};
+    dataLayer.push({
+        'location': [
+            APP_LOCALE
+        ]
+    });
+</script>
+ 
+<!-- DataLayer -->
+    <script type="text/javascript">dataLayer.push({"version":"4 \/ 4.9.8","page":[{"template":"404","ads":[{"siteskin":0,"sponsored":0}]}],"user":[{"shares":[{"fb":0,"tw":0,"li":0,"go":0,"re":0}]}]});</script>
+
+<!-- Google Tag Manager -->
+<script>
+	(function (w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start': new Date().getTime(), event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src =
+			'//www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-MHDDSC');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager -->
+<noscript>
+	<iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-MHDDSC" style="display: none; visibility: hidden;" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager -->
+    <script>
+    !function(n,e,o,r,i){if(!e){e=e||{},window.permutive=e,e.q=[],e.config=i||{},e.config.projectId=o,e.config.apiKey=r,e.config.environment=e.config.environment||"production";for(var t=["addon","identify","track","trigger","query","segment","segments","ready","on","once","user","consent"],c=0;c<t.length;c++){var f=t[c];e[f]=function(n){return function(){var o=Array.prototype.slice.call(arguments,0);e.q.push({functionName:n,arguments:o})}}(f)}}}(document,window.permutive,"970c370e-66b5-4cc7-ad17-1d370e11bf75","d6c42980-42e9-4537-93f1-f2c3fd326c4a",{});  
+    window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(function(){if(0===window.googletag.pubads().getTargeting("permutive").length){var g=window.localStorage.getItem("_pdfps");window.googletag.pubads().setTargeting("permutive",g?JSON.parse(g):[])}});
+
+    permutive.addon('web', {})
+    </script>
+    <script async src="https://cdn.permutive.com/970c370e-66b5-4cc7-ad17-1d370e11bf75-web.js"></script>
+<script>
+/* Modernizr 2.8.3 (Custom Build) | MIT & BSD
+ * Build: http://modernizr.com/download/#-touch-cssclasses-teststyles-prefixes
+ */
+;window.Modernizr=function(a,b,c){function w(a){j.cssText=a}function x(a,b){return w(m.join(a+";")+(b||""))}function y(a,b){return typeof a===b}function z(a,b){return!!~(""+a).indexOf(b)}function A(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:y(f,"function")?f.bind(d||b):f}return!1}var d="2.8.3",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m=" -webkit- -moz- -o- -ms- ".split(" "),n={},o={},p={},q=[],r=q.slice,s,t=function(a,c,d,e){var f,i,j,k,l=b.createElement("div"),m=b.body,n=m||b.createElement("body");if(parseInt(d,10))while(d--)j=b.createElement("div"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=["&#173;",'<style id="s',h,'">',a,"</style>"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},u={}.hasOwnProperty,v;!y(u,"undefined")&&!y(u.call,"undefined")?v=function(a,b){return u.call(a,b)}:v=function(a,b){return b in a&&y(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=r.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(r.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(r.call(arguments)))};return e}),n.touch=function(){var c;return"ontouchstart"in a||a.DocumentTouch&&b instanceof DocumentTouch?c=!0:t(["@media (",m.join("touch-enabled),("),h,")","{#modernizr{top:9px;position:absolute}}"].join(""),function(a){c=a.offsetTop===9}),c};for(var B in n)v(n,B)&&(s=B.toLowerCase(),e[s]=n[B](),q.push((e[s]?"":"no-")+s));return e.addTest=function(a,b){if(typeof a=="object")for(var d in a)v(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&&f&&(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},w(""),i=k=null,e._version=d,e._prefixes=m,e.testStyles=t,g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+q.join(" "):""),e}(this,this.document);
+</script>
+</head>
+
+    <body class="is-404 with-nav-message">
+        
+<nav class="nav">
+    <div class="nav-logo">
+        <a href="/" title="The Next Web"
+             data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">
+            <img alt="The Next Web"
+                src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
+        </a>
+        <ul class="nav-logo-popout">
+            <li><a class="is-active" href="/"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li>
+            <li><a href="/conference/" ref="" target="_blank"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="Conference" data-event-non-interaction="true">Events</a>
+            </li>
+            <li><a href="https://index.co/" rel="noopener" target="_blank"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="Index" data-event-non-interaction="true">Index</a>
+            </li>
+            <li><a href="https://tq.co/" target="_blank" rel="noopener"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">TQ</a></li>
+            <li><a href="https://deals.thenextweb.com/?utm_source=thenextweb.com&amp;utm_medium=referral&amp;utm_campaign=navbar"
+                    rel="noopener" target="_blank"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="Deals" data-event-non-interaction="true">Deals</a>
+            </li>
+            <li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">Answers</a>
+            </li>
+            <li><a href="/x/" target="_blank" rel="noopener"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="TNW X" data-event-non-interaction="true">TNW X</a>
+            </li>
+        </ul>
+    </div>
+    <ul class="nav-tnw" role="navigation">
+        <li><a class="is-active" href="/"
+                 data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li>
+        <li><a href="/conference/" target="_blank"
+                 data-event-category="Top" data-event-action="Navigation" data-event-label="Conference" data-event-non-interaction="true">TNW2020</a>
+            <!-- <ul class="nav-tnw-dropdown-menu">
+                <li>
+                    <a href="/conference/">TNW2020</a>
+                </li>
+            </ul> -->
+        </li>
+        <li><a href="https://index.co/" target="_blank"
+                 data-event-category="Top" data-event-action="Navigation" data-event-label="Business" data-event-non-interaction="true">Business
+                ▾</a>
+            <ul class="nav-tnw-dropdown-menu">
+                <li>
+                    <a href="https://index.co/">Index</a>
+                </li>
+                <li>
+                    <a href="/x/">TNW X</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener"
+                 data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">AMAs</a></li>
+        <li><a href="https://tq.co/" rel="noopener" target="_blank"
+                 data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">Spaces</a></li>
+        <li><a href="/terms-and-conditions/" rel="noopener" target="_blank"
+                 data-event-category="Top" data-event-action="Navigation" data-event-label="Terms and Conditions" data-event-non-interaction="true">Terms
+                & Conditions</a></li>
+        <div class="nav-company">
+            <li><a href="/about"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="About" data-event-non-interaction="true">About</a>
+            </li>
+            <li><a href="/advertise"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="Advertise" data-event-non-interaction="true">Advertise</a>
+            </li>
+            <li><a href="https://thenextweb.homerun.co/" target="_blank" rel="noopener"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="Jobs" data-event-non-interaction="true">Jobs</a></li>
+            <li><a href="/about/#contact"
+                     data-event-category="Top" data-event-action="Navigation" data-event-label="Contact" data-event-non-interaction="true">Contact</a>
+            </li>
+        </div>
+    </ul>
+    <div class="u-clear" role="navigation">
+
+                    <ul class="nav-sections">
+        <li class="nav-sections-section"><a href="/latest"  data-event-category="Top" data-event-action="Channels" data-event-label="Latest" data-event-non-interaction="true">Latest</a></li>
+        <li class="nav-sections-section"><a href="/hardfork"  data-event-category="Top" data-event-action="Channels" data-event-label="Hard Fork" data-event-non-interaction="true">Hard Fork</a></li>
+        <li class="nav-sections-section"><a href="/plugged"  data-event-category="Top" data-event-action="Channels" data-event-label="Plugged" data-event-non-interaction="true">Plugged</a></li>
+        <li class="nav-sections-section"><a href="/adobe-fundamentals"  data-event-category="Top" data-event-action="Channels" data-event-label="Fundamentals" data-event-non-interaction="true">Fundamentals</a></li>
+        <li class="nav-sections-section"><a href="/readme"  data-event-category="Top" data-event-action="Channels" data-event-label="ReadMe" data-event-non-interaction="true">ReadMe</a></li>
+        <li class="nav-sections-section"><a href="/growth-quarters"  data-event-category="Top" data-event-action="Channels" data-event-label="Growth Quarters" data-event-non-interaction="true">Growth Quarters</a></li>
+        <li class="nav-sections-section"><a href="/neural"  data-event-category="Top" data-event-action="Channels" data-event-label="Neural" data-event-non-interaction="true">Neural</a></li>
+    </ul>
+                                
+        <ul class="nav-icons">
+            <li class="cookieConsent">
+                <a href="#"><i class="icon icon--cookie"></i></a>
+                <div class="cookieConsent-popOut">
+                    <header>
+                        <h2>Have a cookie</h2>
+                    </header>
+                    <main>
+                        <p>
+                            TNW uses cookies to personalize content and ads to
+                            make our site easier for you to use.
+                            We do also share that information with third parties for
+                            advertising &amp; analytics.
+                        </p>
+                    </main>
+                    <footer>
+                        <a class="button button--small" onclick="cookiesAccepted();"
+                             data-event-category="Top" data-event-action="Cookies" data-event-label="OK" data-event-non-interaction="true">Got
+                            it!</a>
+                        <span>
+                            or <a href="/cookie-statement/"
+                                 data-event-category="Top" data-event-action="Cookies" data-event-label="More information" data-event-non-interaction="true">More
+                                info</a>
+                        </span>
+                    </footer>
+                </div>
+            </li>
+            <li><a id="search--open" href="#"><i class="icon icon--search--dark"></i></a>
+                <!--
+                <li><a href="#"><i class="icon icon--user--dark"></i></a>
+                -->
+            <li>
+                <a class="nav-mob-toggle" id="nav-mob-toggle" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </li>
+        </ul>
+        <!--
+        <ul class="nav-follow">
+            <li><a  data-event-category="Top" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true" href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" target="_blank"  rel="noopener"><i class="icon icon--facebook--dark"></i></a>
+            <li><a  data-event-category="Top" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true" href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" target="_blank"  rel="noopener"><i class="icon icon--twitter--dark"></i></a>
+            <li class="nav-follow-extra">
+                <ul>
+                    <li><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" target="_blank"  rel="noopener"  data-event-category="Top" data-event-action="Social" data-event-label="Google+" data-event-non-interaction="true"><i class="icon icon--google--dark"></i></a>
+                    <li><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn"  rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Social" data-event-label="LinkedIn" data-event-non-interaction="true"><i class="icon icon--linkedin--dark"></i></a>
+                    <li><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube"  rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--dark"></i></a>
+                    <li><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--dark"></i></a>
+                    <li><a href="http://pinterest.com/thenextweb/" title="Follow us on Pinterest" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--dark"></i></a>
+                    <li><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="RSS" data-event-non-interaction="true"><i class="icon icon--rss--dark"></i></a>
+                </ul>
+            </li>
+            <li><a data-modal="modalStayTuned" href="#"><i class="icon icon--mail--dark"></i></a>
+            <li class="nav-follow-more nav-follow-toggle"><a href="#"><i class="icon icon--more--dark"></i></a>
+            <li class="nav-follow-less nav-follow-toggle"><a href="#"><i class="icon icon--close"></i></a>
+        </ul>
+        -->
+
+    </div>
+
+    <div class="nav-mob">
+        <div class="nav-mob-content">
+            <ul class="nav-mob-follow">
+                <li><a data-modal="modalStayTuned" href="#"><i class="icon icon--mail--light"></i></a>
+                    <li><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true"><i class="icon icon--facebook--light"></i></a></li><li><a href="https://twitter.com/thenextweb" title="Follow us on Twitter" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true"><i class="icon icon--twitter--light"></i></a></li><li><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="LinkedIn" data-event-non-interaction="true"><i class="icon icon--linkedin--light"></i></a></li><li><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--light"></i></a></li><li><a href="https://pinterest.com/thenextweb" title="Follow us on Pinterest" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--light"></i></a></li><li><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--light"></i></a></li><li><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="RSS Feed" data-event-non-interaction="true"><i class="icon icon--rss--light"></i></a></li>            </ul>
+            <div class="u-row">
+                <div class="u-col-xs-6">
+                    <h5>Sections</h5>
+                    <ul class="nav-mob-menu">
+                        <li><a href="/latest"
+                                 data-event-category="Top" data-event-action="Sections" data-event-label="Latest" data-event-non-interaction="true">Latest</a>
+                        </li>
+                        <li><a href="/section/insights"
+                                 data-event-category="Top" data-event-action="Sections" data-event-label="Insights" data-event-non-interaction="true">Insights</a>
+                        </li>
+                        <li><a href="/plugged/"
+                                 data-event-category="Top" data-event-action="Sections" data-event-label="Plugged" data-event-non-interaction="true">Plugged</a>
+                        </li>
+                        <li><a href="/adobe-fundamentals/"
+                                 data-event-category="Top" data-event-action="Sections" data-event-label="Fundamentals" data-event-non-interaction="true">Fundamentals</a>
+                        </li>
+                        <!--li><a href="/iot-lab/" >IoT Lab</a></li-->
+                        <li><a href="/readme/"
+                                 data-event-category="Top" data-event-action="Sections" data-event-label="ReadMe" data-event-non-interaction="true">ReadMe</a>
+                        </li>
+                        <li><a href="https://thenextweb.com/growth-quarters/"
+                                 data-event-category="Top" data-event-action="Sections" data-event-label="Growth Quarters" data-event-non-interaction="true">Growth
+                                Quarters</a></li>
+                        <li><a href="https://thenextweb.com/neural/"
+                                 data-event-category="Top" data-event-action="Sections" data-event-label="Neural" data-event-non-interaction="true">Neural</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="u-col-xs-6">
+                    <h5>About TNW</h5>
+                    <ul class="nav-mob-menu">
+                        <li><a href="/about" data-event-category="Top" data-event-action="Navigation" data-event-label="About" data-event-non-interaction="true">About</a></li><li><a href="https://tnwads.typeform.com/to/ofLLXt" data-event-category="Top" data-event-action="Navigation" data-event-label="Advertise" data-event-non-interaction="true">Advertise</a></li><li><a href="/jobs" data-event-category="Top" data-event-action="Navigation" data-event-label="Jobs" data-event-non-interaction="true">Jobs</a></li><li><a href="/about#contact" data-event-category="Top" data-event-action="Navigation" data-event-label="Contact" data-event-non-interaction="true">Contact</a></li><li><a href="/terms-and-conditions/" data-event-category="Top" data-event-action="Navigation" data-event-label="Terms & Conditions" data-event-non-interaction="true">Terms & Conditions</a></li>                    </ul>
+                    <h5>TNW Sites</h5>
+                    <ul class="nav-mob-menu">
+                        <li><a href="/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li><li><a href="/conference/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TNW 2020" data-event-non-interaction="true">TNW 2020</a></li><li><a href="/x/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TNW X" data-event-non-interaction="true">TNW X</a></li><li><a href="https://index.co/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Index" data-event-non-interaction="true">Index</a></li><li><a href="https://tq.co/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">TQ</a></li><li><a href="https://deals.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Deals" data-event-non-interaction="true">Deals</a></li><li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">Answers</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a data-event-category="Top" data-event-action="Announcement bar" data-event-label="Did you know we have a TECH FESTIVAL? Check it out →" href="https://thenextweb.com/conference" target="_blank"  rel="noopener">
+	<div class="nav-message nav-message-announcement" style="pointer-events:none">
+			Did you know we have a TECH FESTIVAL? Check it out →	</div>
+</a>
+
+</nav>        <main class="main">
+<section class="page">
+    <div class="wrapper">
+        <h1 class="u-m-1">Uh oh, that page doesn’t exist</h1>
+        <p class="u-fontSize-xl">
+            Hey cyberspace traveller, you've reached beyond TNW's limits.<br>
+            <br>
+            <a href="/">Check out our homepage</a>
+        </p>
+    </div>
+</section>
+
+        </main>
+
+        <footer class="footer">
+
+        <div class="footer-gif">
+            <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/404/travolta.gif" class="gif-404">
+        </div>
+            <div class="footer-links">
+                <div class="wrapper">
+                    <ul class="footer-links-social">
+                        <li><a href="https://www.facebook.com/thenextweb" target="_blank" rel="noopener"  data-event-category="Footer" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true"><i class="icon icon--facebook--light"></i></a>
+                        <li><a href="https://twitter.com/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true"><i class="icon icon--twitter--light"></i></a>
+                        <li><a href="https://www.youtube.com/user/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--light"></i></a>
+                        <li><a href="https://www.instagram.com/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--light"></i></a>
+                        <li><a href="https://www.pinterest.com/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--light"></i></a>
+                        <li><a href="https://thenextweb.com/feed/" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Feed" data-event-non-interaction="true"><i class="icon icon--rss--light"></i></a>
+                        <li><a data-modal="modalStayTuned" href="#"  data-event-category="Footer" data-event-action="Social" data-event-label="Newsletter" data-event-non-interaction="true"><i class="icon icon--mail--light"></i></a>
+                    </ul>
+                    <ul class="footer-links-menu">
+                        <li><a href="/conference/"  data-event-category="Footer" data-event-action="Conference" data-event-label="" data-event-non-interaction="true">Events</a></li>
+                        <li><a href="/about"  data-event-category="Footer" data-event-action="About" data-event-label="" data-event-non-interaction="true">About</a></li>
+                        <li><a href="/advertise" target="_blank"  data-event-category="Footer" data-event-action="Advertise" data-event-label="" data-event-non-interaction="true">Advertise</a></li>
+                        <li><a href="https://thenextweb.homerun.hr/" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Jobs" data-event-label="" data-event-non-interaction="true">Jobs</a></li>
+                        <li><a href="/about#contact"  data-event-category="Footer" data-event-action="Contact" data-event-label="" data-event-non-interaction="true">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-legal">
+                <div class="wrapper">
+                        <span>
+                            <a href="/"><img alt="The Next Web" class="footer-legal-logoTNW" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"></a>
+                            &copy; 2006&ndash;2020 The Next Web B.V.
+                        </span>
+                        <span>Made with <b>&hearts;</b> in Amsterdam.</span>
+                        <span>
+                            Powered by
+                            <a href="https://www.stackpath.com?utm_campaign=Partner%20Display&utm_source=Partner%20Display&utm_medium=thenextweb" target="_blank" rel="noopener"><img alt="StackPath" class="footer-legal-logoStackPath" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg"></a>
+                        </span>
+                </div>
+            </div>
+            </div>
+        </footer>
+        <div class="js-modal modal modalStayTuned" id="modalStayTuned">
+    <div class="modal-window modal-window--noFooter">
+        <header class="modal-header">
+            <h3>Stay tuned</h3>
+            <a href="#close" title="Esc"><i class="ss-pika ss-delete" onclick="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Close','eventLabel':'Modal','eventNonInteraction':1} )"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#99A1AA" d="M31 19.2l-1.5-1.4-5.3 5.3-5.2-5.3-1.5 1.4 5.3 5.3-5.3 5.3 1.5 1.4 5.2-5.3 5.3 5.3 1.5-1.4-5.3-5.3"/></svg></i></a>
+        </header>
+        <div class="modal-body">
+            <h2 class="modalStayTuned-title u-m-0_5 u-text-center">
+                Treat yourself
+            </h2>
+            <p class="lead u-m-1_5 u-text-center">
+                Sit back and let the hottest tech news come to you by the magic of electronic mail.
+            </p>
+            <form action="https://thenextweb.com/wp-content/themes/cyberdelia/ajax/form/newsletter.php" class="u-m-1" method="post" data-xhr data-xhr-fail="newsletterFail" data-xhr-success="newsletterSuccess" onsubmit="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Sign up','eventLabel':'Modal','eventNonInteraction':1} );">
+                <div class="modalStayTuned-success">
+                    <b>T</b><b>h</b><b>a</b><b>n</b><b>k</b><b>&nbsp;</b><b>y</b><b>o</b><b>u</b><b>!</b>
+                </div>
+                <div class="formField">
+                    <div class="formField-withButton">
+                        <div class="formField-withIcon u-float-left u-w-xs-75">
+                            <input class="formInput formInput--text" name="email" placeholder="Email" type="email" required="">
+                                                        <input class="" name="source" hidden id="source-newsletter" style="display: none" value="thenextweb.com/img/tnw.svg">
+                            <i class="icon icon--mail"></i>
+                        </div>
+                        <button class="button u-float-left u-w-xs-25" type="submit">Sign up</button>
+                    </div>
+                </div>
+            </form>
+            <p class="u-color-light u-fontSize-xs u-m-1 u-text-center">
+                Prefer to get the news as it happens? Follow us on social media.
+            </p>
+            <ul class="modalStayTuned-channels u-row">
+                <li class="u-col-xs-6 u-m-0">
+                    <div class="modalStayTuned-channels-channel modalStayTuned-channels-channel--twitter">
+                    <div class="modalStayTuned-channels-icon"><a href="https://twitter.com/thenextweb" target="_blank" rel="noopener"><img alt="Twitter" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icon-twitter.svg"></a></div>
+                        <p class="modalStayTuned-channels-followers">
+                            <b>1.76M</b> followers
+                        </p>
+                        <a class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/thenextweb"></a>
+                    </div>
+                </li>
+                <li class="u-col-xs-6 u-m-0">
+                    <div class="modalStayTuned-channels-channel modalStayTuned-channels-channel--facebook">
+                        <div class="modalStayTuned-channels-icon"><a href="https://www.facebook.com/thenextweb" target="_blank" rel="noopener"><img alt="Facebook" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icon-facebook.svg"></a></div>
+                        <p class="modalStayTuned-channels-followers">
+                            <b>1M</b> likes
+                        </p>
+                        <div class="fb-like" data-href="https://www.facebook.com/thenextweb" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="js-modal modal modalStayTuned" id="modalSurvey">
+    <div class="modal-window modal-window--noFooter">
+        <header class="modal-header">
+            <h3>Help us out</h3>
+            <a href="#close" title="Esc" rel="modal:close"><i class="ss-pika ss-delete" onclick="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Close','eventLabel':'Modal','eventNonInteraction':1} )"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#99A1AA" d="M31 19.2l-1.5-1.4-5.3 5.3-5.2-5.3-1.5 1.4 5.3 5.3-5.3 5.3 1.5 1.4 5.2-5.3 5.3 5.3 1.5-1.4-5.3-5.3"/></svg></i></a>
+        </header>
+        <div class="modal-body">
+            <h2 class="modalStayTuned-title u-m-0_5 u-text-center">
+                Who are you?
+            </h2>
+            <p class="lead u-m-1_5 u-text-center">
+                Got two minutes to spare? We'd love to know a bit more about our readers.<br /><br />
+                <a class="button u-w-xs-25" href="#">Start!</a>
+            </p>
+            <p class="u-color-light u-fontSize-xs u-m-1 u-text-center">
+                All data collected in the survey is anonymous.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="search" id="search">
+    <header class="search-header">
+        <a class="search-header-logo" href="/">
+            <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw-red.svg">
+        </a>
+        <a id="search--close" class="search--close" href="#"><i class="icon icon--close"></i></a>
+    </header>
+    <form action="/" class="search-form" method="get">
+        <input autocomplete="off" id="search-input" name="q" value="" placeholder="Search" type="text" onfocus="this.value = this.value;">
+        <a id="search-clear" class="search-clear" href="#"><i class="icon icon--close icon--close-white icon--close-small"></i></a>
+    </form>
+    <div class="search-results" id="searchResults"></div>
+
+    <div class="search-nav-hints">
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">↑</span> <span class="search-nav-hint-key">↓</span> Navigate up/down
+        </div>
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">Enter</span> Go to article
+        </div>
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">/</span> Search new term
+        </div>
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">Esc</span> Close search
+        </div>
+    </div>
+
+</div>
+
+    <script type="text/javascript" src="/wp-content/advertisement.js" async></script>
+
+    <script type="text/javascript">
+        var adBlocker = true;
+        var APP_ENV = {"theme":"cyberdelia","permalink":"https:\/\/thenextweb.com\/img\/tnw.svg","template":"404","paths":{"site":"https:\/\/thenextweb.com\/","base":"https:\/\/thenextweb.com\/wp-content\/themes\/cyberdelia\/","assets":"https:\/\/cdn0.tnwcdn.com\/wp-content\/themes\/cyberdelia\/assets\/"},"pageIdx":1,"currentPost":null,"activePostIdx":null,"postRack":[],"layout":{"siteskin":false},"category":null,"categoryId":null,"section":null,"sectionId":null,"adTargeting":{"sponsorName":false,"isSponsoredCategory":false}}    </script>
+
+    <script type="text/javascript">
+
+        function getTheCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        if (getTheCookie("tuid") !== "") {
+            dataLayer.push({
+                'tuid': getTheCookie("tuid")
+            });
+        }
+
+    </script>
+	
+    <script src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/js/app.min.js?v=1585558461" type="text/javascript" async></script>
+
+  		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thenextweb.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<script type='text/javascript'>
+/* <![CDATA[ */
+var wlSettings = {"ajaxUrl":"https:\/\/thenextweb.com\/wp-admin\/admin-ajax.php","apiUrl":"https:\/\/thenextweb.com\/wl-api\/","jsonld_enabled":""};
+var wordlift = {"version":"3.21.0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thenextweb.com/wp-content/plugins/wordlift/js/dist/bundle.js?ver=3.21.0'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-content/plugins/elasticpress/dist/js/facets.min.js?ver=3.0.3'></script>
+        <script>
+            (new Image()).src = "//sync.search.spotxchange.com/partner?source=204258";
+        </script>
+            </body>
+</html>

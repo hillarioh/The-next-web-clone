@@ -1,0 +1,99 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: #888;
+}
+
+.header .nav1-container {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  padding: 8px;
+}
+
+.header .nav1-container ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav1-container ul li {
+  margin: 0 5px;
+}
+
+.header .nav2-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header .nav2-container ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav2-container ul li {
+  margin: 0 5px;
+}
+
+.header .nav2-container .col2 {
+  margin-right: 5px;
+}
+
+.header .nav2-container .col2 i {
+  width: 10px;
+  padding: 0 5px;
+  border-left: 1px solid black;
+}
+
+.header .nav3-container {
+  background: #ffdd33;
+  color: black;
+}
+
+.nav3-container p {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  height: 500px;
+}
+
+.section1 .article1 {
+  grid-area: 1 / 1 / 3 / 2;
+  border: 1px solid black;
+  position: relative;
+  padding: 16px;
+}
+
+.section1 .article1 .article1-logo {
+  position: absolute;
+  /* display: block; */
+  width: 200px;
+  height: 150px;
+  background: url("Images/tnw.svg");
+  top: 10px;
+  left: 10px;
+}
+
+.section1 .article1 .articl1e1-date {
+  position: absolute;
+  width: 200px;
+  float: right;
+}
