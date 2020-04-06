@@ -4,7 +4,9 @@ body {
   padding: 0;
   font-family: "Krub", sans-serif;
 }
-
+section {
+  padding: 2rem 0;
+}
 .d-flex {
   display: flex;
 }
@@ -127,7 +129,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
 }
 
 h3 a {
@@ -273,4 +274,70 @@ article {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/hardik-pandya-new-york-e-scooter-ebike-mobility-tech-state-US-UK-ride-share-app-lime-bird-dott-796x448.jpg");
   background-size: cover;
   min-height: 100%;
+}
+
+.fundings {
+  position: relative;
+  background: #fffaf8;
+}
+
+.fundings img {
+  width: 60px;
+  position: absolute;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  margin: 11px;
+}
+.fundings .name {
+  background: #f42;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 11px 16px 11px 84px;
+}
+.fundings .funds {
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
+  color: black;
+  padding: 11px 16px 11px 84px;
+}
+.funds h4 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.funds h5 {
+  font-family: "Oxanium", cursive;
+  font-size: 11px;
+  color: #000;
+  opacity: 0.5;
+}
+
+.funds-meta {
+  list-style: none;
+  padding: 16px;
+}
+.funds-meta .fa {
+  color: #000;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.funds-meta a {
+  color: #555;
+  font-size: 14px;
+  line-height: 2rem;
+}
+.funds-para {
+  padding: 16px;
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+}
+.funds-para a {
+  color: #555;
+  font-size: 13px;
+}
+.funds-para a span {
+  color: #aaaaaa;
 }
