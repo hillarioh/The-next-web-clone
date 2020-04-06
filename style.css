@@ -386,7 +386,7 @@ article {
 .second-middler {
   display: inline-block;
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/hbo-free-coronavirus.jpg");
-  width: 114px;
+  width: 30%;
   height: 75px;
   background-size: cover;
   background-position: center;
@@ -411,6 +411,10 @@ article {
 .col-md-4 {
   flex: 33%;
   max-width: 33%;
+}
+
+.col-md-4 .wrapper {
+  padding: 0 10px;
 }
 
 .apps {
