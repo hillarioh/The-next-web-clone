@@ -4,6 +4,16 @@ body {
   padding: 0;
 }
 
+.d-flex {
+  display: flex;
+}
+.hidden {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
 main {
   margin: 0;
   padding: 0;
@@ -73,6 +83,7 @@ main {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   height: 500px;
+  padding: 10px 20px;
 }
 
 .section1 .article1 {
@@ -80,20 +91,36 @@ main {
   border: 1px solid black;
   position: relative;
   padding: 16px;
+  background: url("Images/remote-job-796x417-gradient.png") center no-repeat;
+  background-size: cover;
 }
 
 .section1 .article1 .article1-logo {
-  position: absolute;
-  /* display: block; */
+  display: inline-block;
   width: 200px;
   height: 150px;
   background: url("Images/tnw.svg");
-  top: 10px;
-  left: 10px;
 }
 
 .section1 .article1 .articl1e1-date {
-  position: absolute;
-  width: 200px;
   float: right;
+}
+
+.section1 .article1 ul {
+  list-style: none;
+}
+.section1 .article1 ul li {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.section1 .article1 ul li a,
+.section1 .article1 ul li i {
+  color: hsla(0, 0%, 100%, 0.6);
+  vertical-align: middle;
+  font-size: 12px;
+}
+.article1 .article-content h2 {
+  font-size: 56px;
 }
