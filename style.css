@@ -10,6 +10,22 @@ body {
 .hidden {
   display: none;
 }
+.container {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.col-md-3 {
+  flex: 24%;
+  max-width: 24%;
+  box-sizing: border-box;
+  margin: 0 2px;
+}
 a {
   text-decoration: none;
   color: #fff;
