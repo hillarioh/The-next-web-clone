@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Krub", sans-serif;
 }
 
 .d-flex {
@@ -16,6 +17,17 @@ body {
   margin: 0 auto;
   max-width: 1192px;
   padding: 0 20px;
+}
+
+.section-title {
+  margin: 20px 0 10px;
+}
+
+.section-title a {
+  font-weight: 900;
+  font-size: 28px;
+  color: #f42;
+  padding-left: 9px;
 }
 
 .row {
@@ -36,8 +48,23 @@ body {
   height: 150px;
 }
 
+.news {
+  padding: 14px 8px;
+}
+
 .news a {
   color: black;
+}
+
+.news h3 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.news p,
+.news p a {
+  color: #888;
+  font-size: 13px;
 }
 
 .col-md-3 .img1 {
@@ -64,6 +91,35 @@ body {
 
 .col-md-3 .img4 {
   background: url("https://i.ytimg.com/vi/zZbDg24dfN0/hqdefault.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-md-3 .img5 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Copy-of-...-516x270.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-md-3 .img6 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/corona-brands-447x270.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-md-3 .img7 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/supermassive_header-515x270.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+}
+
+.col-md-3 .img8 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/4-human-caused-biases-we-need-to-fix-for-machine-learning1-516x270.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
