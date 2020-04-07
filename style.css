@@ -21,7 +21,6 @@ section {
   position: fixed;
   top: 0;
   z-index: 9;
-  /* height: 40px; */
 }
 
 .container {
@@ -165,7 +164,6 @@ main {
 .header {
   color: #888;
   width: 100%;
-  /* z-index: 10; */
   background: white;
 }
 
@@ -184,6 +182,7 @@ main {
   color: #9f9f9f;
   font-size: 13px;
 }
+
 .nav2-container li a {
   color: #aaa;
   font-size: 13px;
@@ -194,7 +193,7 @@ main {
   justify-content: space-between;
   background: #131313;
   padding: 8px;
-  max-height: 32px;
+  min-height: 32px;
 }
 
 .article-content ul {
@@ -302,7 +301,7 @@ main {
 }
 
 .header .nav2-container .col2 {
-  margin-right: 5px;
+  margin-right: 23px;
 }
 
 .wrapper2 ul li a i {
@@ -312,7 +311,6 @@ main {
 .header .nav2-container .col2 i {
   width: 10px;
   padding: 0 5px;
-  border-left: 1px solid black;
 }
 
 .header .nav3-container {
@@ -649,42 +647,49 @@ article {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .deal2 {
   background: url("https://cdnp1.stackassets.com/5ca251630ebcac6641069323e9520734afa494d9/store/opt/263/211/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg");
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .deal3 {
   background: url("https://cdnp2.stackassets.com/ca06161fb465220a0172ad4dc00b9acfca429c1f/store/fitb/263/211/c3e91210d1e14fad0bbd67762249ba37d7293eff10e62c29ed5b6c368248/sale_27001_primary_image.jpg");
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .deal4 {
   background: url("https://cdnp3.stackassets.com/05bdfb5f0616060f49ff365f6b2c5437fa5d6a2a/store/opt/263/211/68076d638abc4b1c252b05e65253424957f0ff9549c7bd37b82b975620a8/sale_27020_primary_image.jpg");
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .deal5 {
   background: url("https://cdnp0.stackassets.com/25a2ede46d9d7105831277ff4cb62db92dc2d2be/store/opt/263/211/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .deal6 {
   background: url("https://cdnp0.stackassets.com/c78f0812c7734b521db7b96677023006c414cdb1/store/fitb/263/211/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg");
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .deal7 {
   background: url("https://cdnp0.stackassets.com/fdf3413958202ef231c6a7fc4d9402ae36e6eed2/store/opt/263/211/213bde39c7285726394c4afed207d57cfd6bf224453c2c0edbfc12a448e8/sale_24208_primary_image.jpg");
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .deal8 {
   background: url("https://cdnp0.stackassets.com/384715307ae25cab5160d8970294c3bfe2dbbee2/store/fitb/263/211/f5b737d616d2fab13d25f07ded2660409b9f2902a13207743957dd42af48/sale_25931_primary_image.jpg");
   background-position: 0 100%;
@@ -696,6 +701,7 @@ p.fees {
   color: #000;
   font-size: 14px;
 }
+
 p.fees span {
   color: #888;
   text-decoration: line-through;
@@ -731,6 +737,7 @@ p.fees span {
   margin-right: 1px;
   vertical-align: baseline;
 }
+
 .nav1-container li .active {
   color: black;
 }

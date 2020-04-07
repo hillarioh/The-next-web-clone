@@ -6,14 +6,25 @@
     flex-flow: column;
   }
 
+  .header .nav1-container {
+    display: block;
+  }
+
+  .header .nav2-container {
+    display: block;
+    flex-wrap: wrap;
+  }
+
   .section1 {
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
+
   .article1 .article-content h2 {
     font-size: 24px;
     line-height: inherit;
   }
+
   .col-md-4,
   .col-md-3 {
     flex: 100%;
