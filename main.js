@@ -9,4 +9,10 @@ $(document).ready(function () {
       $(".header").removeClass("fixed");
     }
   });
+  $("#search-btn").click(function () {
+    $(".sub-section").toggleClass("hidden");
+  });
+  $(".close-btn").click(function () {
+    $(".sub-section").toggleClass("hidden");
+  });
 });
