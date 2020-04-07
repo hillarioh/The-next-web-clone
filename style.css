@@ -20,7 +20,8 @@ section {
 .fixed {
   position: fixed;
   top: 0;
-  height: 40px;
+  z-index: 9;
+  /* height: 40px; */
 }
 
 .container {
@@ -163,6 +164,9 @@ main {
 
 .header {
   color: #888;
+  width: 100%;
+  /* z-index: 10; */
+  background: white;
 }
 
 .end li a {
@@ -401,6 +405,7 @@ article {
   width: 100%;
   background: linear-gradient(to top, #000000fa, transparent);
   height: 100%;
+  z-index: 0;
 }
 
 .article3 {
@@ -727,5 +732,106 @@ p.fees span {
   vertical-align: baseline;
 }
 .nav1-container li .active {
+  color: black;
+}
+
+.sub-section {
+  position: relative;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+  padding: 80px 20px 0;
+  z-index: 9999;
+}
+
+.search {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  height: 48px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.search img {
+  float: left;
+  height: 48px;
+  padding: 12px 22px;
+}
+
+.search .search-close {
+  display: block;
+  height: 48px;
+  float: right;
+  opacity: 0.25;
+  padding: 16px;
+  width: 48px;
+  will-change: opacity;
+}
+
+.search-form {
+  margin: 0 auto 20px;
+  max-width: 640px;
+  position: relative;
+  width: 100%;
+}
+
+.search-form input {
+  appearance: none;
+  width: 100%;
+  border: none;
+  color: #f42;
+  display: block;
+  font-family: Avalon, sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  padding-bottom: 8px;
+  padding-right: 32px;
+  border-bottom: 2px solid #aaa;
+}
+
+.search-clear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1px 6px;
+  margin: 21px 0;
+  background-color: #aaa;
+  border-radius: 50%;
+  opacity: 0.5;
+  will-change: opacity;
+  color: white;
+}
+
+.search-nav-hints {
+  display: block;
+  max-width: 640px;
+  line-height: 48px;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  left: 20%;
+}
+
+.search-nav-hint {
+  display: inline-block;
+  line-height: 24px;
+  margin-right: 12px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.search-nav-hint-key {
+  display: inline-block;
   color: #fff;
+  background-color: #f42;
+  padding: 1px 4px 2px;
+  border-radius: 2px;
+  font-weight: 700;
+  /* opacity: 0.4; */
+  min-width: 20px;
+  line-height: 18px;
+  text-align: center;
 }

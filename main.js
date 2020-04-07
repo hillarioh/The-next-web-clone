@@ -5,7 +5,7 @@ $(document).ready(function () {
       $(".header").addClass("fixed");
       $(".nav1-container").addClass("hidden");
     } else {
-      $(".nav1-container").removeClass("fixed");
+      $(".nav1-container").removeClass("hidden");
       $(".header").removeClass("fixed");
     }
   });
