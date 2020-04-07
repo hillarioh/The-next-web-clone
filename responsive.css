@@ -27,16 +27,20 @@
     flex: 100%;
     max-width: 100%;
   }
+
   .header .nav1-container,
   .header .nav2-container nav {
     display: none;
   }
+
   .nav2-container .toggle {
     display: block;
   }
+
   .b-logo img {
     height: 50px;
   }
+
   .section-header .header-link {
     float: left;
     line-height: 20px;

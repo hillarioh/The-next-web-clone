@@ -94,6 +94,16 @@ h3 a {
   font-size: 13px;
 }
 
+.mob-nav a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 1.6rem;
+}
+
+.mob-social-link a {
+  color: #fff;
+}
+
 .news p,
 .news p a {
   color: #888;
@@ -182,16 +192,40 @@ main {
   color: #9f9f9f;
   font-size: 13px;
 }
+
+.nav2-container li a {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.article-content ul li a,
+.article-content ul li i {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.wrapper2 ul li a {
+  color: #9f9f9f;
+}
+
+.mob-nav .mob-nav-head a {
+  color: #fff;
+  float: right;
+  font-size: 1.5rem;
+  vertical-align: center;
+}
+
 .b-logo img {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   background-color: #f42;
   height: 100%;
-  padding: 0px 10px;
+  padding: 0 10px;
   width: 102px;
 }
-.nav2-container li a {
-  color: #aaa;
-  font-size: 13px;
+
+.mob-nav ul {
+  list-style: none;
 }
 
 .header .nav1-container {
@@ -205,19 +239,22 @@ main {
 .nav2-container #search-btn {
   float: right;
 }
+
 .nav2-container .toggle {
   display: none;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .nav2-container nav {
   padding: 10px;
 }
+
 .nav2-container .col2 {
   position: absolute;
   right: 34px;
   top: 30%;
 }
+
 .article-content ul {
   list-style: none;
   margin-top: 5px;
@@ -268,17 +305,6 @@ main {
   display: inline-block;
   font-size: 12px;
   margin-left: 6px;
-}
-
-.article-content ul li a,
-.article-content ul li i {
-  color: hsla(0, 0%, 100%, 0.6);
-  font-size: 12px;
-  vertical-align: middle;
-}
-
-.wrapper2 ul li a {
-  color: #9f9f9f;
 }
 
 .ft-lk2 li a:hover {
@@ -832,6 +858,7 @@ p.fees span {
   top: 0;
   will-change: opacity;
 }
+
 .mob-nav {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   background-color: #f42;
@@ -839,42 +866,30 @@ p.fees span {
   top: 0;
   z-index: 99;
 }
+
 .mob-nav-head {
   border-bottom: 1px solid rgba(204, 204, 204, 0.671);
   padding-bottom: 50px;
 }
-.mob-nav .mob-nav-head a {
-  color: #fff;
-  float: right;
-  font-size: 1.5rem;
-  vertical-align: center;
-}
-.mob-nav a {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  line-height: 1.6rem;
-}
-.mob-nav ul {
-  list-style: none;
-}
+
 .mob-nav h5 {
   color: #fff;
 }
+
 .mob-social-link {
   border-bottom: 1px solid rgba(204, 204, 204, 0.671);
   display: flex;
   justify-content: space-around;
   list-style: none;
-  padding: 1.5rem 0rem;
+  padding: 1.5rem 0;
 }
-.mob-social-link a {
-  color: #fff;
-}
+
 .col-sm-6 {
   flex: 50%;
   margin-top: 2rem;
   max-width: 50%;
 }
+
 .mob-links {
   padding: 20px 5px;
 }
