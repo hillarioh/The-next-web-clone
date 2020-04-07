@@ -37,4 +37,8 @@
   .b-logo img {
     height: 50px;
   }
+  .section-header .header-link {
+    float: left;
+    line-height: 20px;
+  }
 }

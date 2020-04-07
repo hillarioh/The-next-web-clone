@@ -832,3 +832,49 @@ p.fees span {
   will-change: opacity;
   color: white;
 }
+.mob-nav {
+  background-color: #f42;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.mob-nav-head {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.671);
+  padding-bottom: 50px;
+}
+.mob-nav .mob-nav-head a {
+  color: #fff;
+  font-size: 1.5rem;
+  float: right;
+  vertical-align: center;
+}
+.mob-nav a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 1.6rem;
+}
+.mob-nav ul {
+  list-style: none;
+}
+.mob-nav h5 {
+  color: #fff;
+}
+.mob-social-link {
+  list-style: none;
+  display: flex;
+  padding: 1.5rem 0rem;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.671);
+}
+.mob-social-link a {
+  color: #fff;
+}
+.col-sm-6 {
+  margin-top: 2rem;
+  flex: 50%;
+  max-width: 50%;
+}
+.mob-links {
+  padding: 20px 5px;
+}

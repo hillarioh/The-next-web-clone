@@ -15,4 +15,10 @@ $(document).ready(function () {
   $(".close-btn").click(function () {
     $(".sub-section").toggleClass("hidden");
   });
+  $(".toggle").click(function () {
+    $(".mob-nav").toggleClass("hidden");
+  });
+  $(".toggle-close").click(function () {
+    $(".mob-nav").toggleClass("hidden");
+  });
 });
