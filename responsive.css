@@ -1,4 +1,10 @@
 @media (max-width: 600px) {
+  .header {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+  }
   .section1 {
     grid-template-columns: auto;
     grid-template-rows: auto;

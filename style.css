@@ -273,7 +273,7 @@ main {
 .header .nav2-container {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 16px 10px;
 }
 
 .header .nav2-container ul {
