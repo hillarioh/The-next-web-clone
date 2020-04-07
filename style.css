@@ -14,7 +14,13 @@ section {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 40px;
 }
 
 .container {
