@@ -58,7 +58,7 @@ h3 a {
 
 .col-md-3 .news-img {
   max-width: 100% !important;
-  height: 150px;
+  height: 201px;
 }
 
 .news {
@@ -97,21 +97,21 @@ h3 a {
 
 .col-md-3 .img1 {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/yoga-516x270.png");
-  background-position: 50%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .col-md-3 .img2 {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/image-6-516x270.png");
-  background-position: 50%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .col-md-3 .img3 {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/cognitive-design-516x270.png");
-  background-position: 50%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -20px;
@@ -119,28 +119,28 @@ h3 a {
 
 .col-md-3 .img4 {
   background: url("https://i.ytimg.com/vi/zZbDg24dfN0/hqdefault.jpg");
-  background-position: 50%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .col-md-3 .img5 {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Copy-of-...-516x270.png");
-  background-position: 50%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .col-md-3 .img6 {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/corona-brands-447x270.jpg");
-  background-position: 50%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .col-md-3 .img7 {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/supermassive_header-515x270.png");
-  background-position: 50%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -20px;
@@ -148,7 +148,7 @@ h3 a {
 
 .col-md-3 .img8 {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/4-human-caused-biases-we-need-to-fix-for-machine-learning1-516x270.png");
-  background-position: 50%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -500,11 +500,60 @@ article {
 }
 
 .apps {
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/strategic-narrative-796x417.png);
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/strategic-narrative-796x417.png");
   background-size: cover;
   min-width: 100%;
   height: 276px;
   position: relative;
+}
+
+.deal1 {
+  background: url("https://cdnp1.stackassets.com/010db828bff9580496f22c4946cfed0f395679ef/store/opt/596/447/d94c53c39cd3274007a3bcd8c0937364610a130d22815064969f121b9a8f/product_36900_product_shots1.jpg");
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal2 {
+  background: url("https://cdnp1.stackassets.com/5ca251630ebcac6641069323e9520734afa494d9/store/opt/263/211/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg");
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal3 {
+  background: url("https://cdnp2.stackassets.com/ca06161fb465220a0172ad4dc00b9acfca429c1f/store/fitb/263/211/c3e91210d1e14fad0bbd67762249ba37d7293eff10e62c29ed5b6c368248/sale_27001_primary_image.jpg");
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal4 {
+  background: url("https://cdnp3.stackassets.com/05bdfb5f0616060f49ff365f6b2c5437fa5d6a2a/store/opt/263/211/68076d638abc4b1c252b05e65253424957f0ff9549c7bd37b82b975620a8/sale_27020_primary_image.jpg");
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal5 {
+  background: url("https://cdnp0.stackassets.com/25a2ede46d9d7105831277ff4cb62db92dc2d2be/store/opt/263/211/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal6 {
+  background: url("https://cdnp0.stackassets.com/c78f0812c7734b521db7b96677023006c414cdb1/store/fitb/263/211/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg");
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal7 {
+  background: url("https://cdnp0.stackassets.com/fdf3413958202ef231c6a7fc4d9402ae36e6eed2/store/opt/263/211/213bde39c7285726394c4afed207d57cfd6bf224453c2c0edbfc12a448e8/sale_24208_primary_image.jpg");
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal8 {
+  background: url("https://cdnp0.stackassets.com/384715307ae25cab5160d8970294c3bfe2dbbee2/store/fitb/263/211/f5b737d616d2fab13d25f07ded2660409b9f2902a13207743957dd42af48/sale_25931_primary_image.jpg");
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
