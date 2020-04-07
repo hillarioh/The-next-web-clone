@@ -170,15 +170,21 @@ main {
   padding-bottom: 10px;
 }
 
-.header ul li a {
+.nav1-container li a {
   color: #9f9f9f;
+  font-size: 13px;
+}
+.nav2-container li a {
+  color: #aaa;
+  font-size: 13px;
 }
 
 .header .nav1-container {
   display: flex;
   justify-content: space-between;
-  background: black;
+  background: #131313;
   padding: 8px;
+  max-height: 32px;
 }
 
 .article-content ul {
@@ -267,7 +273,7 @@ main {
 .header .nav2-container {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 16px;
 }
 
 .header .nav2-container ul {
@@ -305,7 +311,9 @@ main {
 }
 
 .nav3-container p {
-  padding: 5px;
+  padding: 7px 9px;
+  color: #1d1d1d;
+  font-size: 13px;
   margin: 0 5px;
 }
 
@@ -360,6 +368,7 @@ article {
 
 .section1 .article1 .articl1e1-date {
   float: right;
+  color: #fff;
 }
 
 .article-content {
@@ -710,4 +719,7 @@ p.fees span {
   height: 9px;
   margin-right: 1px;
   vertical-align: baseline;
+}
+.nav1-container li .active {
+  color: #fff;
 }
