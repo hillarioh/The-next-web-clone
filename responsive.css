@@ -6,13 +6,10 @@
     flex-flow: column;
   }
 
-  .header .nav1-container {
-    display: block;
-  }
-
   .header .nav2-container {
     display: block;
     flex-wrap: wrap;
+    padding: 0;
   }
 
   .section1 {
@@ -29,5 +26,15 @@
   .col-md-3 {
     flex: 100%;
     max-width: 100%;
+  }
+  .header .nav1-container,
+  .header .nav2-container nav {
+    display: none;
+  }
+  .nav2-container .toggle {
+    display: block;
+  }
+  .b-logo img {
+    height: 50px;
   }
 }

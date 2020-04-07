@@ -182,7 +182,13 @@ main {
   color: #9f9f9f;
   font-size: 13px;
 }
-
+.b-logo img {
+  height: 100%;
+  background-color: #f42;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  width: 102px;
+  padding: 0px 10px;
+}
 .nav2-container li a {
   color: #aaa;
   font-size: 13px;
@@ -196,6 +202,22 @@ main {
   min-height: 32px;
 }
 
+.nav2-container #search-btn {
+  float: right;
+}
+.nav2-container .toggle {
+  padding: 0px 20px;
+  display: none;
+}
+
+.nav2-container nav {
+  padding: 10px;
+}
+.nav2-container .col2 {
+  position: absolute;
+  right: 34px;
+  top: 30%;
+}
 .article-content ul {
   list-style: none;
   margin-top: 5px;
@@ -281,15 +303,13 @@ main {
 
 .header .nav2-container {
   display: flex;
-  justify-content: space-between;
-  padding: 16px 10px;
+  position: relative;
 }
 
 .header .nav2-container ul {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .header .nav2-container ul li {
@@ -301,7 +321,7 @@ main {
 }
 
 .header .nav2-container .col2 {
-  margin-right: 23px;
+  display: flex;
 }
 
 .wrapper2 ul li a i {
