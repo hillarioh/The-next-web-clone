@@ -210,6 +210,7 @@ main {
 .ft-lk li {
   background: #333;
   border-radius: 50%;
+  border: 2px solid #333;
   display: block;
   height: 40px;
   padding: 12px;
@@ -242,12 +243,20 @@ main {
   font-size: 12px;
 }
 
-.header .nav1-container ul li {
-  margin: 0 5px;
-}
-
 .wrapper2 ul li a {
   color: #9f9f9f;
+}
+
+.ft-lk2 li a:hover {
+  color: white;
+}
+
+.ft-lk li:hover {
+  background: #000;
+}
+
+.header .nav1-container ul li {
+  margin: 0 5px;
 }
 
 .header .nav1-container ul li a:hover {
