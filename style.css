@@ -293,9 +293,12 @@ article {
 
 .section1 .article1 .article1-logo {
   display: inline-block;
-  width: 200px;
+  width: 50%;
   height: 150px;
-  background: url("Images/tnw.svg");
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .section1 .article1 .articl1e1-date {
