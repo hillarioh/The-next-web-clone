@@ -2,7 +2,7 @@
 
 > A clone of famous THE NEXT WEB website to practice and complete assignment at microverse with collabration of two developers you will find the profile below. We created a fully resposive website using Vanilla Css and Html.
 
-![screenshot](./images/screenshot.png)
+![screenshot](./Images/screenshot.png)
 
 ## Built With
 
