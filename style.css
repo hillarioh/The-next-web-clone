@@ -481,6 +481,69 @@ article {
   background-position: center;
 }
 
+.second-middler2 {
+  display: inline-block;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Pixel-4-Camera-1-of-1.jpg");
+  width: 30%;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
+.second-middler3 {
+  display: inline-block;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-8.jpg");
+  width: 30%;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
+.second-middler4 {
+  display: inline-block;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule.jpg");
+  width: 30%;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
+.second-middler5 {
+  display: inline-block;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/question-unknown.png");
+  width: 30%;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
+.second-middler6 {
+  display: inline-block;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today.jpg");
+  width: 30%;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
+.second-middler7 {
+  display: inline-block;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced.png");
+  width: 30%;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
+.second-middler8 {
+  display: inline-block;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today.jpg");
+  width: 30%;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+}
+
 .end {
   clear: both;
   padding-left: 17px;
@@ -498,6 +561,62 @@ article {
 
 .apps {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/strategic-narrative-796x417.png");
+  background-size: cover;
+  min-width: 100%;
+  height: 276px;
+  position: relative;
+}
+
+.gears {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/MSI-Creator-17-368x276.jpg");
+  background-size: cover;
+  min-width: 100%;
+  height: 276px;
+  position: relative;
+}
+
+.techs {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/zoombombing-368x276.png");
+  background-size: cover;
+  min-width: 100%;
+  height: 276px;
+  position: relative;
+}
+
+.creative {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Getty-Photo-Challenge-368x276.jpg");
+  background-size: cover;
+  min-width: 100%;
+  height: 276px;
+  position: relative;
+}
+
+.podium {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/corona-brands-368x276.jpg");
+  background-size: cover;
+  min-width: 100%;
+  height: 276px;
+  position: relative;
+}
+
+.insights {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/zoom-meeting-368x276.png");
+  background-size: cover;
+  min-width: 100%;
+  height: 276px;
+  position: relative;
+}
+
+.launch {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg");
+  background-size: cover;
+  min-width: 100%;
+  height: 276px;
+  position: relative;
+}
+
+.distract {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Getty-Photo-Challenge-368x276.jpg");
   background-size: cover;
   min-width: 100%;
   height: 276px;
