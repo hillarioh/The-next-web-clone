@@ -30,7 +30,7 @@ section {
 }
 
 .section-title {
-  display: inline-block;
+  display: block;
   margin: 20px 0 10px;
 }
 
