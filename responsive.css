@@ -22,10 +22,6 @@
     visibility: hidden;
   }
 
-  .row {
-    justify-content: space-evenly;
-  }
-
   .header .nav2-container {
     display: block;
     flex-wrap: wrap;
@@ -44,13 +40,13 @@
   }
 
   .col-md-3 {
-    flex: 30%;
-    min-width: 30%;
+    flex: 33.33%;
+    min-width: 33.33%;
   }
 
   .col-md-4 {
-    flex: 47%;
-    min-width: 47%;
+    flex: 50%;
+    min-width: 50%;
   }
 
   .header .nav1-container,
