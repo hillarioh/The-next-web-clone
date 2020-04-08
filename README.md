@@ -2,6 +2,8 @@
 
 > A clone of famous THE NEXT WEB website to practice and complete assignment at microverse with collabration of two developers you will find the profile below. We created a fully resposive website using Vanilla Css and Html.
 
+The original website of The Next Web [Link](https://thenextweb.com/)
+
 ![screenshot](./Images/screenshot.png)
 
 ## Built With
