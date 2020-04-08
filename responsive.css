@@ -6,8 +6,8 @@
     width: 100%;
   }
 
-  .container {
-    margin-left: 20px;
+  .row {
+    justify-content: space-evenly;
   }
 
   .header .nav2-container {
