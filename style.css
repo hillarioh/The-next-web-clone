@@ -56,9 +56,9 @@ h3 a {
 
 .col-md-3 {
   box-sizing: border-box;
-  flex: 24%;
-  margin: 0 2px;
-  max-width: 24%;
+  flex: 25%;
+  padding: 0 2px;
+  max-width: 25%;
 }
 
 .col-md-3 .news-img {
@@ -615,8 +615,8 @@ article {
 }
 
 .col-md-4 {
-  flex: 33%;
-  max-width: 33%;
+  flex: 33.33%;
+  max-width: 33.33%;
 }
 
 .col-md-4 .wrapper {
