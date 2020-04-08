@@ -100,3 +100,14 @@
     line-height: 20px;
   }
 }
+
+@media (min-width: 900px) and (max-width: 1098px) {
+  .col-md-4 {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .col-md-3 {
+    flex: 33.33%;
+    max-width: 33.33%;
+  }
+}
