@@ -1,9 +1,25 @@
+@media (min-width: 900px) and (max-width: 1098px) {
+  .col-md-4 {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .col-md-3 {
+    flex: 33.33%;
+    max-width: 33.33%;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     display: flex;
     flex-flow: column;
     overflow: hidden;
     width: 100%;
+  }
+
+  .section1 .article1 .article1-logo {
+    visibility: hidden;
   }
 
   .row {
@@ -102,17 +118,5 @@
   .section-header .header-link {
     float: left;
     line-height: 20px;
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1098px) {
-  .col-md-4 {
-    flex: 50%;
-    max-width: 50%;
-  }
-
-  .col-md-3 {
-    flex: 33.33%;
-    max-width: 33.33%;
   }
 }
